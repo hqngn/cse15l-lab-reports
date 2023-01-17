@@ -13,20 +13,19 @@ Before we can begin, we need to make sure that we have everything set up so that
 You're going to need your account username for your course before you can log onto an account on ieng6.
 To find your username, head to https://sdacs.ucsd.edu/~icc/index.php. Under account look up, enter your name
 and PID, and your account username will be displayed. Here, you can also set your password, which you should do now. For CSE 15L, your 
-account should look something like this:
+account username should look something like this:
 `cs15lwi23***`
 
 ![Image](accountLookup.png)
 
 ## Installing VSCode, Git, and working with Bash
 
-- Video Studio Code can be downloaded here: https://code.visualstudio.com/
-- Bash can be downloaded here: https://gitforwindows.org/
+- Visual Studio Code can be downloaded here: https://code.visualstudio.com/
+- Git can be downloaded here: https://gitforwindows.org/
 
-Next, we're going to need to install a couple of things if they're not already installed: Visual Studio Code and Bash.
+Next, we're going to need to install a couple of things if they're not already installed: Visual Studio Code and Git.
 Navigate to the links above, press the download button, and run the downloaded file. This will run an installation wizard
 that you can follow to install both to your computer. 
-
 
 Now we can change the default terminal of Visual Studio Code to Bash:
 
