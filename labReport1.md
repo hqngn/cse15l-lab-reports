@@ -14,21 +14,21 @@ You're going to need your account username for your course before you can log on
 To find your username, head [here](https://sdacs.ucsd.edu/~icc/index.php). Under account look up, enter your name
 and PID.
 
-![Image](accountLookup.png)
+![Image](./labReport1Images/accountLookup.png)
 
 After entering this information, you should see a page like the one below. Your username will be under additional accounts. For CSE 15L, your 
 account username should look something like this:
 `cs15lwi23***` 
 
-![Image](passwordChange.png)
+![Image](./labReport1Images/passwordChange.png)
 
 From the page above, you can also click on the [UC San Diego Active Directory (AD) Password Change Tool](https://sdacs.ucsd.edu/~icc/password.php) link to reset your account password if you have not already. Clicking on that should take you to the page shown below:
 
-![Image](passwordLoginPrompt.png)
+![Image](./labReport1Images/passwordLoginPrompt.png)
 
 Just enter in the information you provided on the earlier page, and it will lead you to the following page:
 
-![image](passwordFinal.png)
+![image](./labReport1Images/passwordFinal.png)
 
 From here, you can change the password to both your course account and your MyTritonLink account, or just your course account. Now that you have both your course account username and password, we can move on to the next steps!
 
@@ -45,21 +45,21 @@ Now we can change the default terminal of Visual Studio Code to Bash:
 
 - Open Up Visual Studio Code
 
-![Image](vscOpen.png)
+![Image](./labReport1Images/vscOpen.png)
 
 - Set your default terminal to Bash by pressing `ctrl + shift + p` and searching for: `Terminal: Select Default Profile` and then selecting `Git Bash`
 
-![Image](selectDefault.png)
+![Image](./labReport1Images/selectDefault.png)
 
-![Image](gitBash.png)
+![Image](./labReport1Images/gitBash.png)
 
 - Open a terminal by clicking terminal and then new terminal or by pressing `ctrl + shift + `\`
 
-![Image](newTerminal.png)
+![Image](./labReport1Images/newTerminal.png)
 
 ## Remotely Connecting
 
-![Image](remoteConnection.png)
+![Image](./labReport1Images/remoteConnection.png)
 
 - In your new Bash terminal, type the following: `ssh yourUsername@ieng6.ucsd.edu`
 - You will likely be prompted with a message about "the authenticity of the host", to which you can reply yes to as it is your first time connecting. (You can see this in the second to fifth lines in the terminal in the screenshot above)
@@ -72,11 +72,11 @@ Once these steps have been taken, a remote connection should be established, and
 
 Now that you have logged in remotely, you can start working with the files on that computer:
 
-![Image](command.png)
+![Image](./labReport1Images/command.png)
 
 In this particular example, the commands ```pwd``` and ```cd``` were used to really emphasize the fact that there is a remote connection, and that you can now work with files on a remote computer. ```pwd``` displays the present working directory of the remote computer, and ```cd``` changes the present working directory. The present working directory shown in the image above indicates that the files exist on a computer running Linux, whereas the computer on which VS Code is being used is running windows.
 
-![Image](moreCommands.png)
+![Image](./labReport1Images/moreCommands.png)
 
 Here are some other commands that can be ran, starting from the top of the image above, going down:
 
